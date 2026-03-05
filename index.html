@@ -1,50 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <title>Renewable vs Non-Renewable Game</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="game-container">
-    <h1>Renewable vs Non‑Renewable Resources</h1>
-    <p class="sdg-tagline">
-      Decide if each resource is <span class="highlight">Renewable</span> or <span class="highlight">Non‑Renewable</span>.
-    </p>
 
-    <div class="status-bar">
-      <div>Score: <span id="score">0</span></div>
-      <div>Question: <span id="question-number">1</span>/<span id="total-questions">0</span></div>
+    <div class="container">
+
+        <!-- Profile Section -->
+        <div class="profile-card">
+            <div class="profile-img"></div>
+            <div class="intro-box">
+                <h2>About Me</h2>
+                <p>Hello! I'm Minh, you can call me Dane.</p>
+            </div>
+        </div>
+
+        <!-- Skills Section -->
+        <div class="skills-card">
+            <h2>Skills</h2>
+            <ul>
+                <li><strong>HTML</strong> – Structure and layout of websites.</li>
+                <li><strong>CSS</strong> – Styling, animations, and responsive design.</li>
+                <li><strong>JavaScript</strong> – Interactive features and dynamic content.</li>
+                <li><strong>Design</strong> – UI/UX, colour themes, and layout planning.</li>
+            </ul>
+        </div>
+
+        <!-- Sources Section -->
+        <div class="source-card">
+            <h2>Sources</h2>
+            <div class="links">
+                <a href="https://youtu.be/rgEm9QqS41U?si=XFyXfwhnxv7BTra8" target="_blank">Link 1: Weather app</a>
+                <a href="https://youtu.be/z2LQYsZhsFw?si=ME847NQykQFTdfMj" target="_blank">Link 2: Css animation</a>
+                <a href="https://copilot.microsoft.com/" target="_blank">Link 3: A.I to check the code</a>
+            </div>
+        </div>
+
+        <!-- Projects Section -->
+        <div class="project-card">
+            <h2>My Project</h2>
+            <a class="project-link" href="module.html" target="_blank">Visit My Weather app</a>
+        </div>
+
     </div>
 
-    <div class="progress-bar-wrapper">
-      <div id="progress-bar" class="progress-bar"></div>
-    </div>
-
-    <div class="question-box">
-      <div id="question-text" class="question-text">
-        Loading question...
-      </div>
-    </div>
-
-    <div class="buttons">
-      <button class="btn-clean" id="btn-renewable">Renewable ♻️</button>
-      <button class="btn-not-clean" id="btn-nonrenewable">Non‑Renewable ⛽</button>
-    </div>
-
-    <div id="feedback" class="feedback"></div>
-
-    <button class="btn-restart" id="btn-restart" style="display:none;">Play Again</button>
-
-    <a href="sdg7quiz.html">
-      <button class="btn-restart" style="margin-top:12px;">Go to advance Quiz</button>
-    </a>
-
-    <div class="info-box">
-      <strong>About Resources:</strong> Renewable resources can naturally replenish, like wind, sunlight, and water. Non‑renewable resources such as coal, oil, and natural gas take millions of years to form and can run out.
-    </div>
-  </div>
-
-  <script src="scripts.js"></script>
+<script src="script.js"></script>
 </body>
 </html>
